@@ -159,5 +159,7 @@ void  Init_TSM12(void)
    Wire.write(byte(0x03)); // sends register data
    Wire.endTransmission(); // stop transmitting   
   
+   
+   
    }
 // End 
