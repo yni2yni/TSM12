@@ -31,8 +31,8 @@
 #define OUTPUT_REG2  	0x11 //cs5~cs8 output
 #define OUTPUT_REG3  	0x12 //cs9~cs12 output
 
-#define TSM12_SLAVE_GND  0x68 //0xD0<<1 //ID Pin = GND
-#define TSM12_SLAVE_VDD  0x78 //0xF0<<1 //ID Pin = VDD
+#define TSM12_SLAVE_GND  0x68 //0xD0>>1 //ID Pin = GND
+#define TSM12_SLAVE_VDD  0x78 //0xF0>>1 //ID Pin = VDD
 
 void  Init_TSM12(void); //Initialize TSM12
 
